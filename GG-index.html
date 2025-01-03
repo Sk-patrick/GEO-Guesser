@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Map</title>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARZiM7NqX1emlsUtwuZ6FTTZ2yDeV3r5w&callback=initMap">
+        </script>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        body{
+            height:100vh;
+        }
+        #map {
+            height:100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Single map container -->
+    <div id="map"></div>
+</body>
+<script src="map-loader.js"></script>
+
+</html>
